@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<racine>
+    <produit>
+        <nom>Macbook</nom>
+        <marque>Apple</marque>
+        <prix>1500 €</prix>
+    </produit>
+    <produit>
+        <nom>Pc portable</nom>
+        <marque>Azus</marque>
+        <prix>750 €</prix>
+    </produit>
+	  <produit>
+        <nom>Pc portable</nom>
+        <marque>Toshiba</marque>
+        <prix>800 €</prix>
+    </produit>
+</racine>

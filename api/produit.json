@@ -1,0 +1,20 @@
+{
+	"produits":[
+		{
+			"nom": "Macbook",
+			"Marque": "Apple",
+			"prix": 1200
+		},
+		{
+			"nom": "Pc portable",
+			"Marque": "Azus",
+			"prix": 750
+		},
+		{
+			"nom": "Pc portable",
+			"Marque": "toshiba",
+			"prix": 800
+		}
+
+	]
+}
