@@ -38,7 +38,7 @@ const  url = "./api/produit.json";
 * A l'aide du html le résultat est ensuite affiché dans le navigateur
 
 ## Image ci-dessous
-![ajax](<1 O4oAOnufvUx8ztPgVe3v2A-1.png>)
+![ajax](./asset/cover-server.pngu)
 
 ## 📝Acronyme AJAX (Asynchronous, Javascript and XML)
 > AJAX est une méthode utilisant différentes technologies ajoutées aux navigateurs web entre 1995 et 2005, et dont la particularité est de permettre d'effectuer des requêtes au serveur web
