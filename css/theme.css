@@ -1,4 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
-footer p{
-    color: rgb(233, 101, 242);
-}
+    li:nth-child(2n+1){
+        background: #d1c4e9;
+    }
+    ul li{
+        padding: 1rem;
+    }
+    section h2{
+        text-align: center;
+    }
+    section p{
+        max-width: 600px;
+        padding:1.5rem;
+        color: #fff;
+        text-align: center;
+        background: rgb(200,0,0) url() 0 0 no-repeat;
+        margin:0 auto;
+    }
+    footer *{
+        text-align: center;
+    }
+
+    footer p{
+        color: rgb(233, 101, 242);
+    }
