@@ -29,7 +29,8 @@ const showProd=(data)=>{
     
     // itération sur les donnée depuis l'objet data
     for (i in data.produits) {
-        output += `<li>Nom : ${data.produits[i].nom}</li>
+        output += `<li><img src="${data.produits[i].image}" alt="${data.produits[i].nom}"></li>
+                    <li>Nom : ${data.produits[i].nom}</li>
                    <li>Marque : ${data.produits[i].Marque}</li>
                    <li>Prix : ${data.produits[i].prix} &euro;</li>
                  `; 

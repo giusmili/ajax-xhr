@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded",e =>{
     let xml, xmlhttp, xmlDoc, vliste
-
     xmlhttp = new XMLHttpRequest();
     xmlhttp.open("GET", "produit.xml", false);
     xmlhttp.send();
@@ -8,7 +7,7 @@ document.addEventListener("DOMContentLoaded",e =>{
     console.log(xmlDoc);
     vliste = "";
     xml = xmlDoc.getElementsByTagName("produit");
-    
+  
     console.log(xml[0].childNodes[1]);
     for (let i = 0; i < xml.length; i++) {
     
