@@ -2,16 +2,19 @@
 
 <racine>
     <produit>
+        <image path="https://placehold.jp/3d4070/ffffff/150x150.png" />
         <nom>Macbook</nom>
         <marque>Apple</marque>
         <prix>1500 €</prix>
     </produit>
     <produit>
+        <image path="https://placehold.jp/3d4070/ffffff/150x150.png" />
         <nom>Pc portable</nom>
         <marque>Azus</marque>
         <prix>750 €</prix>
     </produit>
 	  <produit>
+        <image path="https://placehold.jp/3d4070/ffffff/150x150.png" />
         <nom>Pc portable</nom>
         <marque>Toshiba</marque>
         <prix>800 €</prix>
