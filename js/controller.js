@@ -1,8 +1,7 @@
-
 // Request status
 const  xhr = new XMLHttpRequest();
 const  url = "./api/produit.json";
-const  warning = document.querySelector("section");
+const  parent = document.querySelector("section");
 
  xhr.onreadystatechange = () => {
 
@@ -11,13 +10,13 @@ const  warning = document.querySelector("section");
         
           // Parse jSon, pour transformer le fichier txt en flux json
           let jsonData = JSON.parse(xhr.responseText);
-            console.log(jsonData)
+            console.log( )
           // appel de la méthode, passage en paramètre de la requete  
-          showProd(jsonData);
+           showProd(jsonData);
         }
         else{
         console.log("erreur de requête");
-        warning.innerHTML = `<p>Erreur de requête : ${xhr.status}</p>`
+        parent.innerHTML = `<p>Erreur de requête : ${xhr.status}</p>`
     }
 };
 
@@ -25,17 +24,17 @@ const  warning = document.querySelector("section");
 const showProd=(data)=>{
 
     let output = "<ul>"; // Open list
-    let i;
-    
-    // itération sur les donnée depuis l'objet data
-    for (i in data.produits) {
-        output += `<li><img src="${data.produits[i].image}" alt="${data.produits[i].nom}"></li>
-                    <li>Nom : ${data.produits[i].nom}</li>
-                   <li>Marque : ${data.produits[i].Marque}</li>
-                   <li>Prix : ${data.produits[i].prix} &euro;</li>
-                 `; 
-        
-    }
+      let i;
+      
+      // itération sur les donnée depuis l'objet data
+      for (i in data.produits) {
+          output += `<li><img src="${data.produits[i].image}" alt="${data.produits[i].nom}"></li>
+                      <li>Nom : ${data.produits[i].nom}</li>
+                    <li>Marque : ${data.produits[i].Marque}</li>
+                    <li>Prix : ${data.produits[i].prix} &euro;</li>
+                  `; 
+          
+      }
     
     output += "</ul>"; 
  
